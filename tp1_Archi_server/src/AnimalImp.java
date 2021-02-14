@@ -31,28 +31,26 @@ public class AnimalImp extends UnicastRemoteObject implements Animal{
     }
     
 	@Override
-	public String getName() {
+	public String getName() throws RemoteException{
 		// TODO Auto-generated method stub
 		return name;
 	}
 
 	@Override
-	public String getMaitre() {
+	public String getMaitre() throws RemoteException{
 		// TODO Auto-generated method stub
 		return master;
 	}
-	public DossierSuivi getDossier() {
+	public DossierSuivi getDossier() throws RemoteException {
 		// TODO Auto-generated method stub
 		return  dossier;
 	}
 
-	public void setDossier(DossierSuivi d) {
+	public void setDossier(DossierSuivi d) throws RemoteException{
 		// TODO Auto-generated method stub
 		this.dossier=d;
 	}
-	public String toString(){
-		   return getName()+ " - " + getMaitre()+"\n";
-	   }
+	
 	@Override
 	public Espece getEspece() throws RemoteException {
 		// TODO Auto-generated method stub

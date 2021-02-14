@@ -36,7 +36,9 @@ public class Client  {
 			Animal a = c.getAnimal("Rox", "Dala", "Chartreux");
 			//Recuperation du dossier de l'animal
 			if(a!=null){
-			System.out.println("Affichage du dossier de l'animal " + a.getName());
+			System.out.println("Affichage de l'animal ajouter :");
+			System.out.println(a.affichier());
+			System.out.println("Affichage du dossier de l'animal " + a.getName()+" :");
 			DossierSuivi d =a.getDossier();
 			System.out.println(d.getSuivie());
 			}

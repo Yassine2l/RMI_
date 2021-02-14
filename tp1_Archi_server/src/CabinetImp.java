@@ -31,7 +31,7 @@ public class CabinetImp extends UnicastRemoteObject implements Cabinet {
 				return "J'ai trouver l'animale "+animals.get(i).getName() +" il est de cat�gorie "+animals.get(i).getEspece().getCategorie() ;
 			}
 		}
-		return "J'ai pas trouver l'animal "+name;
+		return "J'ai pas trouver l'animal "+name+" qui appartient au propriétaire "+master;
 	}
 	@Override
 	public void addPatient(String name,String Master, String Dossier,Espece e, String race) throws RemoteException {

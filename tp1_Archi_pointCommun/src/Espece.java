@@ -19,7 +19,7 @@ public class Espece  implements Serializable{
 	   return nom;
    }
    public String toString() {
-	return age+" "+nom;
+	return nom+" leurs age moyen est "+age;
 	   
    }
    

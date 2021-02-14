@@ -66,4 +66,10 @@ public class AnimalImp extends UnicastRemoteObject implements Animal{
 		return this.race;
 	}
 
+	@Override
+	public String affichier() throws RemoteException {
+		// TODO Auto-generated method stub
+		return "l'animal dont l'espèce est : " + this.espece + " et dont la race est " + this.race + " s'appelle " + this.name + ". Son propriétaire s'appelle " + this.master;
+	}
+
 }

@@ -15,7 +15,7 @@ public class Login extends UnicastRemoteObject implements Iclient{
 
 	@Override
 	public void inform(int i) {
-		System.out.println(name +" le nombre de clients qui fréquentent votre cabinet préféré est : "+i);
+		System.out.println(name +" le nombre de patients qui fréquentent votre cabinet préféré est : "+i);
 		
 	}
 

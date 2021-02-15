@@ -10,8 +10,8 @@ public class AnimalImp extends UnicastRemoteObject implements Animal{
 	private String name;
 	private String master;
 	private DossierSuivi dossier;
-	Espece espece;
-    String race;
+	private Espece espece;
+    private String race;
 	protected AnimalImp(String name, String Master, DossierSuiviImp d,Espece e , String race) throws RemoteException {
 		super();
 		this.name=name;

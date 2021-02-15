@@ -31,7 +31,7 @@ public class Client  {
 		    String n = c.search("Rox","Dala");
 		    System.out.println(n);
 			System.out.println("L'ajout d'un l'animal");
-		    c.addPatient("Rox", "Dala", "Suivie Dala",new sousEspece("Chat", 12),"Chartreux");
+		    c.addPatient("Rox", "Dala", "Suivie Dala",new SousEspece("Chat", 12),"Chartreux");
 			//Recupération de l'animale ajouter
 			Animal a = c.getAnimal("Rox", "Dala", "Chartreux");
 			//Recuperation du dossier de l'animal

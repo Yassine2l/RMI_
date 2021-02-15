@@ -5,9 +5,9 @@ import java.rmi.RemoteException;
  * @author CHEMAOU Doha - doha.chemaou@etu.umontpellier.fr
 */
 
-public class sousEspece extends Espece{
+public class SousEspece extends Espece{
 
-	public sousEspece(String nom, int agem) throws RemoteException {
+	public SousEspece(String nom, int agem) throws RemoteException {
 		super(nom, agem);
 		// TODO Auto-generated constructor stub
 	}
